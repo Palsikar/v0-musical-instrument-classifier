@@ -2,6 +2,8 @@
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
     "@google/generative-ai": "latest",
+    "@radix-ui/react-slot": "^1.2.4-rc.1761582029795",
+    "@radix-ui/react-tabs": "^1.0.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "latest",
@@ -13,11 +15,12 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.9",
     "@types/node": "^22",
     "@types/react": "19.2.6",
     "@types/react-dom": "19.2.3",
     "postcss": "^8.5",
-    "tailwindcss": "4.1.17",
+    "tailwindcss": "^4.1.9",
     "typescript": "^5"
   }
 }
